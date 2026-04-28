@@ -1,0 +1,71 @@
+[LOG] Script started at 23:01:54.02 
+[LOG] Checking Python... 
+Python 3.14.3
+[LOG] Checking NPM... 
+11.9.0
+Requirement already satisfied: fastapi>=0.105.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from -r backend\requirements.txt (line 1)) (0.136.1)
+Requirement already satisfied: uvicorn>=0.23.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from uvicorn[standard]>=0.23.0->-r backend\requirements.txt (line 2)) (0.46.0)
+Requirement already satisfied: sqlalchemy>=2.0.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from -r backend\requirements.txt (line 3)) (2.0.49)
+Requirement already satisfied: cryptography>=41.0.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from -r backend\requirements.txt (line 4)) (47.0.0)
+Requirement already satisfied: pyjwt>=2.8.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from -r backend\requirements.txt (line 5)) (2.12.1)
+Requirement already satisfied: bcrypt>=4.0.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from -r backend\requirements.txt (line 6)) (5.0.0)
+Requirement already satisfied: python-multipart>=0.0.6 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from -r backend\requirements.txt (line 7)) (0.0.27)
+Requirement already satisfied: pydantic-settings>=2.0.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from -r backend\requirements.txt (line 8)) (2.14.0)
+Requirement already satisfied: starlette>=0.46.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from fastapi>=0.105.0->-r backend\requirements.txt (line 1)) (1.0.0)
+Requirement already satisfied: pydantic>=2.9.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from fastapi>=0.105.0->-r backend\requirements.txt (line 1)) (2.13.3)
+Requirement already satisfied: typing-extensions>=4.8.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from fastapi>=0.105.0->-r backend\requirements.txt (line 1)) (4.15.0)
+Requirement already satisfied: typing-inspection>=0.4.2 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from fastapi>=0.105.0->-r backend\requirements.txt (line 1)) (0.4.2)
+Requirement already satisfied: annotated-doc>=0.0.2 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from fastapi>=0.105.0->-r backend\requirements.txt (line 1)) (0.0.4)
+Requirement already satisfied: click>=7.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from uvicorn>=0.23.0->uvicorn[standard]>=0.23.0->-r backend\requirements.txt (line 2)) (8.3.3)
+Requirement already satisfied: h11>=0.8 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from uvicorn>=0.23.0->uvicorn[standard]>=0.23.0->-r backend\requirements.txt (line 2)) (0.16.0)
+Requirement already satisfied: greenlet>=1 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from sqlalchemy>=2.0.0->-r backend\requirements.txt (line 3)) (3.5.0)
+Requirement already satisfied: cffi>=2.0.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from cryptography>=41.0.0->-r backend\requirements.txt (line 4)) (2.0.0)
+Requirement already satisfied: python-dotenv>=0.21.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from pydantic-settings>=2.0.0->-r backend\requirements.txt (line 8)) (1.2.2)
+Requirement already satisfied: pycparser in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from cffi>=2.0.0->cryptography>=41.0.0->-r backend\requirements.txt (line 4)) (3.0)
+Requirement already satisfied: colorama in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from click>=7.0->uvicorn>=0.23.0->uvicorn[standard]>=0.23.0->-r backend\requirements.txt (line 2)) (0.4.6)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from pydantic>=2.9.0->fastapi>=0.105.0->-r backend\requirements.txt (line 1)) (0.7.0)
+Requirement already satisfied: pydantic-core==2.46.3 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from pydantic>=2.9.0->fastapi>=0.105.0->-r backend\requirements.txt (line 1)) (2.46.3)
+Requirement already satisfied: anyio<5,>=3.6.2 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from starlette>=0.46.0->fastapi>=0.105.0->-r backend\requirements.txt (line 1)) (4.13.0)
+Requirement already satisfied: idna>=2.8 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from anyio<5,>=3.6.2->starlette>=0.46.0->fastapi>=0.105.0->-r backend\requirements.txt (line 1)) (3.13)
+Requirement already satisfied: httptools>=0.6.3 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from uvicorn[standard]>=0.23.0->-r backend\requirements.txt (line 2)) (0.7.1)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from uvicorn[standard]>=0.23.0->-r backend\requirements.txt (line 2)) (6.0.3)
+Requirement already satisfied: watchfiles>=0.20 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from uvicorn[standard]>=0.23.0->-r backend\requirements.txt (line 2)) (1.1.1)
+Requirement already satisfied: websockets>=10.4 in c:\users\aarush\desktop\hackathon\htf\.venv\lib\site-packages (from uvicorn[standard]>=0.23.0->-r backend\requirements.txt (line 2)) (16.0)
+
+[notice] A new release of pip is available: 25.3 -> 26.1
+[notice] To update, run: C:\Users\Aarush\Desktop\HACKATHON\HTF\.venv\Scripts\python.exe -m pip install --upgrade pip
+[LOG] NPM Install... 
+
+up to date, audited 64 packages in 907ms
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[LOG] NPM Build... 
+
+> fintech-dashboard@0.0.1 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[33m[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+16 |  }
+17 |  
+18 |  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=JetBrains+Mono&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+19 |  
+20 |  * { box-sizing: border-box; margin: 0; padding: 0; }[39m
+[32m✓[39m 31 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m  0.43 kB[22m[1m[22m[2m │ gzip:  0.29 kB[22m
+[2mdist/[22m[35massets/index-DD7DY7lW.css  [39m[1m[2m  2.56 kB[22m[1m[22m[2m │ gzip:  1.05 kB[22m
+[2mdist/[22m[36massets/index-BPh3Rtm2.js   [39m[1m[2m145.84 kB[22m[1m[22m[2m │ gzip: 46.92 kB[22m
+[32m✓ built in 565ms[39m
+[LOG] Starting Uvicorn... 
